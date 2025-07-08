@@ -1,0 +1,4 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|9b5b12176730ba62
+data|stem|48538a66541d07c9|87f5902ed953433b|2c530c1562a7fbd1|33550471||t20122.9852490974s|683b2c7bf2554b80|1743|rds|local|vector|||0.735||
+model|stem|23f2fa59e72a31ca|693e4c90d947b5eb|f1381e68ebcb0765|808688450||t20122.9852516256s|809d88ef48c68ced|108|rds|local|vector|||0||
