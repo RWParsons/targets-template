@@ -8,10 +8,10 @@ This project is a targets pipeline. It was made using a
 can be loaded using the following code:
 
 ``` r
-source("https://tinyurl.com/get-project")
+source("https://tinyurl.com/get-gh-project")
 get_project(
-  project_dir = "YOUR_NEW_PROJECT_DIR", # includes project name and doesn't currently exist i.e. "Projects/mhr-pathology-pipeline"
-  repo = "targets-template" # can be a repo of adha-rex's or a {OWNER/REPO} format to use anyone's versioned repo
+  project_dir = "YOUR_NEW_PROJECT_DIR", # includes project name and doesn't currently exist i.e. "Projects/new-targets-project"
+  repo = "RWParsons/targets-template" # can be in the form "{owner}/{repo}" or just "{repo}" if you are the owner
 )
 ```
 
