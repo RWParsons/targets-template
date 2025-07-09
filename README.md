@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Targets pipeline v0.1.4
+# Targets pipeline v0.1.5
 
 This project is a targets pipeline. It was made using a
 [template](https://github.com/adha-rex/targets-template). The template
