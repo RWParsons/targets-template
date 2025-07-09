@@ -18,7 +18,7 @@ The template can be loaded using the following code:
 
 
 ```{r, eval=FALSE}
-source("https://tinyurl.com/get-gh-project")
+source("https://tinyurl.com/get-proj")
 get_project(
   project_dir = "YOUR_NEW_PROJECT_DIR", # includes project name and doesn't currently exist i.e. "Projects/new-targets-project"
   repo = "RWParsons/targets-template" # can be in the form "{owner}/{repo}" or just "{repo}" if you are the owner
