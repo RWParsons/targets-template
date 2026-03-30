@@ -1,22 +1,28 @@
-suppressPackageStartupMessages({
-  library(crew)
-  library(dplyr)
-  library(ggplot2)
-  library(glue)
-  library(lubridate)
-  library(purrr)
-  library(stringr)
-  library(targets)
-  library(tarchetypes)
-  library(tibble)
-  library(tidyr)
-  library(tidyselect)
-  library(usethis)
-})
+library(targets)
+library(tarchetypes)
 
+pkgs <- c(
+  "dplyr",
+  "ggplot2",
+  "glue",
+  "lubridate",
+  "purrr",
+  "stringr",
+  "targets",
+  "tarchetypes",
+  "tibble",
+  "tidyr",
+  "tidyselect",
+  "usethis"
+)
+
+if (interactive() && !tar_active()) {
+  lapply(pkgs, library, character.only = TRUE)
+}
 
 tar_option_set(
-  controller = crew_controller_local(workers = 2),
+  packages = pkgs,
+  controller = crew::crew_controller_local(workers = 2),
   error = "continue"
 )
 
